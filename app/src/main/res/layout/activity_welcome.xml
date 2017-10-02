@@ -6,11 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.example.maqso.mylistproject.welcome">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:text="Welcome"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="126dp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview"
+        />
 </LinearLayout>
